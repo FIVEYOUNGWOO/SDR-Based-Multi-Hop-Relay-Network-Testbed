@@ -1,4 +1,4 @@
-## USRP-relay-network-testbed
+## USRP-Relay-Network-Testbed
 
 Implementation of NI-USRP2921, 2932-based robust multi-hop relay testbed in Labivew NXG 5.0.
 
