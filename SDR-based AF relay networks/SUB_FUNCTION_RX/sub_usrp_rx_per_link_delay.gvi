@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="50D1672D49DDBF30ACC05559D82B5F8F88BF28888DDB46E13AD06E42C1863A19B11D4809CD6C8005DD7929B3FDA50F0124A3851012FD486E36D78D3A074AD1B2" Timestamp="1D7985B5DF483BA" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW 컨트롤" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="공용 언어 컴포넌트" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="편집기" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="편집기" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="9cd5fb168964486c831d686f817c0f26" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="7767fa5415fd4e04b84c453782671f1d" ListViewIconCrop="0 0 50 50" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]50" Id="d79326dceab447dc908008d60cbcf9ab" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" HorizontalAlignment="[HorizontalAlignment]Stretch" Id="47d24c96bf234bceab5ec26e12afd50a" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]50">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="9b507450b83f4dfaa149ec28db88a5c8" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffffffff" Id="c2a22b691c344dc197b6ebde6d70f93e" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Path Data="[PathGeometry]M 21.5,10.2413797 L 8.0625,15.9310341 L 8.0625,13.0862064 C 8.0625,12.0962067 7.49946833,11.2632418 6.71875,10.949173 L 6.71875,2.27586222 L 6.70800066,2.27586222 C 6.70128202,2.09037948 6.40834379,1.94017255 6.0455308,1.94017255 C 5.68271923,1.94017255 5.38978148,2.09037948 5.38440609,2.27586222 L 5.375,2.27586222 L 5.375,10.949173 C 4.5942812,11.2632418 4.03125,12.0962067 4.03125,13.0862064 L 4.03125,17.6379318 L 0,19.3448277 L 0,23.896553 L 21.5,33 L 43,23.896553 L 43,19.3448277 L 21.5,10.2413797 Z M 3.78534389,23.8737926 C 3.43865609,23.9841728 2.98312521,23.682621 2.76812506,23.1978607 C 2.5531249,22.7131042 2.66062522,22.2328968 3.0073123,22.1225185 C 3.35400033,22.0121384 3.80953145,22.3148289 4.02318764,22.7995872 C 4.23953104,23.2820683 4.13203144,23.7634125 3.78534389,23.8737926 Z M 6.36937475,25.0117226 C 6.02268696,25.1221046 5.56715631,24.8205528 5.35349989,24.3357944 C 5.13984346,23.8510342 5.24600029,23.3708267 5.59268808,23.2604485 C 5.93937492,23.1500702 6.39490652,23.4527607 6.6099062,23.9375172 C 6.82221889,24.4199982 6.71606207,24.9013443 6.36937475,25.0117226 Z M 13.4375,28.4482765 L 8.0625,26.1724129 L 8.0625,23.896553 L 13.4375,26.1724129 L 13.4375,28.4482765 Z M 15.8790951,29.0843811 C 15.5324059,29.1947594 15.0768747,28.8932095 14.8618765,28.4084492 C 14.6468744,27.9248295 14.7543755,27.4434853 15.1010628,27.3331032 C 15.4477491,27.2227249 15.9032812,27.5254135 16.1169376,28.0101738 C 16.3332825,28.4926548 16.2257824,28.973999 15.8790951,29.0843811 Z M 18.4631252,30.222311 C 18.1164379,30.3326912 17.6609058,30.0311394 17.4472504,29.546381 C 17.2322502,29.0627613 17.3397503,28.5814152 17.6864376,28.4710369 C 18.0331249,28.3606548 18.4886551,28.6633453 18.7036552,29.1481037 C 18.9159698,29.6305847 18.8098125,30.1119328 18.4631252,30.222311 Z M 29.5624981,28.4482765 L 28.21875,29.0172405 L 28.21875,27.8793106 L 29.5624981,27.3103466 L 29.5624981,28.4482765 Z M 32.25,27.3103466 L 30.9062481,27.8793106 L 30.9062481,26.7413807 L 32.25,26.1724129 L 32.25,27.3103466 Z M 34.9375,26.1724129 L 33.59375,26.7413807 L 33.59375,25.6034489 L 34.9375,25.034483 L 34.9375,26.1724129 Z M 37.625,25.034483 L 36.28125,25.6034489 L 36.28125,24.465519 L 37.625,23.896553 L 37.625,25.034483 Z M 5.39112473,0.886448264 L 5.375,0.886448264 L 5.375,0.317482769 L 5.39112473,0.317482769 C 5.41531277,0.141103446 5.6948123,0 6.0455308,0 C 6.39624977,0 6.67575026,0.141103446 6.69993687,0.317482769 L 6.71875,0.317482769 L 6.71875,0.886448264 L 6.69993687,0.886448264 C 6.70128202,0.895551741 6.70934343,0.902379334 6.70934343,0.910344899 C 6.70934343,1.09924138 6.41103077,1.25172424 6.04418707,1.25172424 C 5.6786871,1.25172424 5.38171864,1.09810352 5.38171864,0.910344899 C 5.38171864,0.902379334 5.38978148,0.895551741 5.39112473,0.886448264 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#ff000000" Height="[float]33" Id="ff4a996ce2d548769b100359d0cefb4a" Left="[float]4" MinHeight="[float]1" MinWidth="[float]1" Top="[float]14" Width="[float]43" />
+				<Text Height="[float]18" Id="1334b6816d214bde8f8692e66c69b749" Left="[float]2" Text="[string]usrp_rx&#xD;&#xA;per_link_delay" TextAlignment="[TextAlignment]Right" TextWrapping="[TextWrapping]Wrap" Top="[float]1" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]45">
+					<FontSetting FontFamily="Segoe UI" FontSize="5" FontStyle="BoldItalic" Id="666ef4ec231344c7bd02c67582d033ba" />
+				</Text>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="50" Id="6e2f1a8989754aadb9e4e7d0eb29117c" ListViewHeight="70" ListViewWidth="150" Width="50" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="99b115bf41e245d391b6aea6ca06fd91" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="50 5" />
+			<ConnectorPaneTerminal Hotspot="50 15" />
+			<ConnectorPaneTerminal Hotspot="50 25" />
+			<ConnectorPaneTerminal Hotspot="50 35" ListViewHotspot="150 50" Parameter="35b6f100139a40029ee59b862a8fc21c" />
+			<ConnectorPaneTerminal Hotspot="15 50" />
+			<ConnectorPaneTerminal Hotspot="25 50" />
+			<ConnectorPaneTerminal Hotspot="50 45" />
+			<ConnectorPaneTerminal Hotspot="0 45" />
+			<ConnectorPaneTerminal Hotspot="35 0" />
+			<ConnectorPaneTerminal Hotspot="35 50" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="ac1acf4cedee49d0a41054b4d88bf144" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="d81ec29d6ce14581bb77abee35a17ba9" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="41bab329f25743e2abe3aa074364c5dc">
+			<PropertyNode Bounds="-12340 -1620 134 35" HasErrorTerminals="False" Id="1e01902d47f842b899f6db6c789fb3fe" InstanceDataType="@401c1351391e43cfb088785e08822af9" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="NI::USRP::niUSRP Timestamp.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal DataType="Double" Hotspot="134 15" Id="c0t0v" Path="fractional seconds" PathElementMemberKinds="Field" Usage="Optional" />
+			</PropertyNode>
+			<Wire Id="e521bd153aa44d16bb8a604181f45635" Joints="N(dbd96ab7cea04dbdb968553bb5957df2:Value)|(-12386,-1685) h(41) v(70) N(1e01902d47f842b899f6db6c789fb3fe:instance in)|(-12340,-1615)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="eed0ff799629442bb1ab82322e73ef3d" Joints="N(1e01902d47f842b899f6db6c789fb3fe:c0t0v)|(-12206,-1605) N(e122579b92534a0c9e498bf723c7da5f:Value)|(-12113,-1605)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="-12116 -1610 40 15" DataItem="35b6f100139a40029ee59b862a8fc21c" Id="e122579b92534a0c9e498bf723c7da5f" Label="e2998b4bbe874d678c177fa92b2c5340" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="-12426 -1690 40 15" DataItem="99b115bf41e245d391b6aea6ca06fd91" Id="dbd96ab7cea04dbdb968553bb5957df2" Label="121eb6c2ff2f445a93fd4138fefeac9c" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@401c1351391e43cfb088785e08822af9" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="e122579b92534a0c9e498bf723c7da5f" Bounds="-12071 -1610 100 14" Id="e2998b4bbe874d678c177fa92b2c5340" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>fractional seconds</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="dbd96ab7cea04dbdb968553bb5957df2" Bounds="-12426 -1707 59 14" Id="121eb6c2ff2f445a93fd4138fefeac9c" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>timestamp</p.Text>
+			</NodeLabel>
+		</BlockDiagram>
+		<NativeFrontPanel Height="[float]1600" HtmlPanel="[bool]False" Id="e9328601fedc41719fcdfe901ea12298" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="e026819bfc084fe2a5aaf2aef5826c39" />
+			<Cluster AutoArrange="[AutoArrange]None" BaseName="[string]timestamp" ClusterType="[Type]@401c1351391e43cfb088785e08822af9" Enabled="[bool]True" Height="[float]101" Id="8c528efdab6f45daa63d3300ef0ae203" IsTabStop="[bool]True" Label="[UIModel]67f44d6cf5ce4430a7dececd5bbbd03c" LabelLinked="[bool]True" Left="[float]164" TabIndex="[int]0" Top="[float]116" Value="{DataItemBinding Id=99b115bf41e245d391b6aea6ca06fd91}" Width="[float]124" p4:ControlDefinitionChecksum="WjUCoKDnxR0tfDfNGhktOHszHEHiQam7kyjvBWzp2e8=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::USRP::niUSRP Timestamp.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;timestamp&lt;/B&gt; returns the timestamp of the first receive (Rx) sample returned and indicates the time associated with the first sample of the waveform, according to the onboard device timer.</p.InfoTipDescription>
+				<NumericText Enabled="[bool]True" Height="[float]24" Id="68f8bb90b2964a0a836efda571df23ca" Interval="[ulong]1" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]a0e02f43a0cf46aba592149da67468fb" Left="[float]3" Maximum="[ulong]18446744073709551615" Minimum="[ulong]0" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]20" Value="{ClusterBinding FieldName=whole\ seconds}" ValueFormatter="[string]LV:G0" ValueType="[Type]UInt64" Width="[float]113" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="a0e02f43a0cf46aba592149da67468fb" LabelOwner="[UIModel]68f8bb90b2964a0a836efda571df23ca" Left="[float]3" Text="[string]whole seconds" Top="[float]0" Width="[float]81" />
+				<NumericText Enabled="[bool]True" Height="[float]24" Id="7bd3b44d41b741e19a0e8d80123eb10f" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]1bf05f101818408ea7a3fad1aa4634f7" Left="[float]3" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]69" Value="{ClusterBinding FieldName=fractional\ seconds}" ValueFormatter="[string]LV:G6" Width="[float]113" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="1bf05f101818408ea7a3fad1aa4634f7" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]7bd3b44d41b741e19a0e8d80123eb10f" Left="[float]17" Text="[string]fractional seconds" Top="[float]49" Width="[float]99" />
+			</Cluster>
+			<NumericText BaseName="[string]숫자형" Height="[float]24" Id="df91500b39f4e78b6df7e3f04feb98d" IsReadOnly="[bool]True" Label="[UIModel]e934609e819b4028adfa5349b8995c80" Left="[float]164" TabIndex="[int]1" Top="[float]260" Value="{DataItemBinding Id=35b6f100139a40029ee59b862a8fc21c}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="67f44d6cf5ce4430a7dececd5bbbd03c" LabelOwner="[UIModel]8c528efdab6f45daa63d3300ef0ae203" Left="[float]164" Text="[string]timestamp" Top="[float]96" Width="[float]58" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="e934609e819b4028adfa5349b8995c80" LabelOwner="[UIModel]df91500b39f4e78b6df7e3f04feb98d" Left="[float]164" Text="[string]fractional seconds" Top="[float]240" Width="[float]99" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="0" DataType="Double" Id="35b6f100139a40029ee59b862a8fc21c" Name="fractional seconds" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="0" DataType="@401c1351391e43cfb088785e08822af9" Id="99b115bf41e245d391b6aea6ca06fd91" Name="timestamp" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0_0x0_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::USRP::niUSRP Timestamp.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="401c1351391e43cfb088785e08822af9">
+			<Attributed AttributedType="@b4cd7304a88c4abc95a0030d88e5b8bd">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI::USRP" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b4cd7304a88c4abc95a0030d88e5b8bd">
+			<Typedef TypedefName="niUSRP Timestamp.gtype" UnderlyingType="@5cbb4dabecf24d338684b0ddbaaf83dd" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="5cbb4dabecf24d338684b0ddbaaf83dd">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="whole seconds" DataType="UInt64" />
+					<Field FieldAccessPolicy="ReadWrite" Name="fractional seconds" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

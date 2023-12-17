@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="54C557651566444090B63984C9804C6863B65958126C285920ABB1F28805733A0C89AF46C31394D30F8153A0686685AB38B66978FFA789CD72B14F3630FE1D30" Timestamp="1D75031E45C7498" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW 컨트롤" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="공용 언어 컴포넌트" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="편집기" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="편집기" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="7228701a491f41319294b737cd670209" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="7bb4527988ec469181096d9712da3dd1" ListViewIconCrop="0 0 50 50" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]50" Id="43bff3f8c165499fa9538cece0a64897" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]50">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" HorizontalAlignment="[HorizontalAlignment]Stretch" Id="8864264c53204345b368ad4671fa5ef0" Left="[float]0" TemplateName="[string]Banner" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]50">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="d66d395f3feb49cd8678f9c2110d89a4" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffffffff" Id="7a442c49b6864916897ac97f0a59688b" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#ffffffff" Top="[float]0" />
+					<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.899999976 0.899999976,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#ff0070c0" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Id="3e5bd8a790394df58bdb224728d96a98" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+					<Rectangle Fill="[SMSolidColorBrush]#ff0070c0" Height="[float]11" Id="59841c659ed94942b2651bd2673f841e" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
+					<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.899999976 1.10000002,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#ff0070c0" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" Id="9ab49d825c34c9bb30051450e321e61" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+				</IconTemplate>
+				<Text Foreground="[SMColor]#ffffffff" Height="[float]15" Id="dcbd533c45bd4b72b59b9a9ebdb34a68" Left="[float]11" Text="[string]USRP" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]27">
+					<FontSetting FontFamily="Segoe UI" FontSize="8" FontStyle="BoldItalic" Id="ce719ee474d74f7a8f180b249298897f" />
+				</Text>
+				<Text Height="[float]32" Id="92d4cb25082743d78026ed98f2a19e3a" Left="[float]6" Text="[string]Enum &#xD;&#xA;convert to&#xD;&#xA;Int" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]15" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]38">
+					<FontSetting FontFamily="Segoe UI" FontSize="6" FontStyle="BoldItalic" Id="e97e689331834ba7a3c5c707fbaea09c" />
+				</Text>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="50" Id="d10f1f5effd04c8aabdf5ee7d16c0bce" ListViewHeight="70" ListViewWidth="150" Width="50" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 35" Parameter="660799153790414e8f11be940e9bd37b" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="50 5" />
+			<ConnectorPaneTerminal Hotspot="50 15" ListViewHotspot="150 50" Parameter="4449b2e0217b4fa1b7689bc1ef8e5be6" />
+			<ConnectorPaneTerminal Hotspot="15 50" />
+			<ConnectorPaneTerminal Hotspot="25 50" />
+			<ConnectorPaneTerminal Hotspot="35 0" />
+			<ConnectorPaneTerminal Hotspot="35 50" />
+			<ConnectorPaneTerminal Hotspot="50 25" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="50 35" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="50 45" />
+			<ConnectorPaneTerminal Hotspot="0 45" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="4f62b1f4c578427485d16930e0705cb7" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="17daba8e7f4747cfa52d86bcfb6d0152" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="17a79425ec1144eb8017e29a764db755">
+			<Literal Bounds="315 245 40 15" DataType="Int32" Id="185ec1f22f834ad3b335e1b7e056fda2" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>1</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G0" />
+			</Literal>
+			<Literal Bounds="350 270 40 15" DataType="Int32" Id="2b3fb1da9c6a4d7c91559d9a65e88964" Label="2671938d344b401fa351f20c7677e4e7" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>2</p.Data>
+				<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G0" />
+			</Literal>
+			<DataAccessor Bounds="230 230 40 15" DataItem="660799153790414e8f11be940e9bd37b" Id="16fc53fbae6f4483b6c0d146b1773354" Label="25c225ef86c5440f9571e8c0f682965b" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@0241784170b84275aff30ede9764a80b" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="480 245 40 15" DataItem="4449b2e0217b4fa1b7689bc1ef8e5be6" Id="b78ec321681e4af99d74f0936b9b6ae8" Label="ea8ac302750e4b24ba0abe9cca07446f" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Int32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<Add Bounds="365 230 30 30" Id="bcd0d7531c3e460984ef22d7584e509c" Terminals="o=b2d7bb2ea7c463c937e9bc4d217b392, c0t0v=13e1c65ca346489aa249063e5390ecc2, c1t0v=5237b28265c4410a9bf418fbcc2a5c88" />
+			<LogicalShift Bounds="425 240 30 30" Id="1ec3be5f8476481ab62dd74474ac7441" />
+			<Comment Bounds="195 315 125 15" Id="b183c8e14bb84b5287d2087a20f3c3cf" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>convert enum to M</p.Text>
+			</Comment>
+			<Wire Id="5237b28265c4410a9bf418fbcc2a5c88" Joints="N(185ec1f22f834ad3b335e1b7e056fda2:Out)|(355,250) N(bcd0d7531c3e460984ef22d7584e509c:c1t0v)|(365,250)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="b2d7bb2ea7c463c937e9bc4d217b392" Joints="N(bcd0d7531c3e460984ef22d7584e509c:o)|(395,245) N(1ec3be5f8476481ab62dd74474ac7441:y)|(425,245)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="e4a22805d5534c5ba1c48fadefe48359" Joints="N(2b3fb1da9c6a4d7c91559d9a65e88964:Out)|(390,275) h(19) v(-20) N(1ec3be5f8476481ab62dd74474ac7441:x)|(425,255)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="d7a5d9d9a615479abc20eece74b7a9ca" Joints="N(1ec3be5f8476481ab62dd74474ac7441:x &lt;&lt; y)|(455,250) N(b78ec321681e4af99d74f0936b9b6ae8:Value)|(483,250)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="13e1c65ca346489aa249063e5390ecc2" Joints="N(16fc53fbae6f4483b6c0d146b1773354:Value)|(270,235) N(bcd0d7531c3e460984ef22d7584e509c:c0t0v)|(365,235)" xmlns="http://www.ni.com/PlatformFramework" />
+			<NodeLabel AttachedTo="2b3fb1da9c6a4d7c91559d9a65e88964" Bounds="350 249 9 18" Id="2671938d344b401fa351f20c7677e4e7" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>x</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="16fc53fbae6f4483b6c0d146b1773354" Bounds="151 230 74 14" Id="25c225ef86c5440f9571e8c0f682965b" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Input M-QAM</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="b78ec321681e4af99d74f0936b9b6ae8" Bounds="480 228 82 14" Id="ea8ac302750e4b24ba0abe9cca07446f" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Output M-QAM</p.Text>
+			</NodeLabel>
+		</BlockDiagram>
+		<NativeFrontPanel Background="[SMSolidColorBrush]#ffffffff" Height="[float]1600" HtmlPanel="[bool]False" Id="6f6220d4f9294a1498aeff16c1d07d74" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="c90b00fa1824cfbb185a4e9086f337d" />
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" Enabled="[bool]True" Height="[float]24" Id="97664436ebb8478db8794bf9f6c5fbf6" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]185aff8588043019e0ea64d563a3e36" Left="[float]228" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]196" Value="{DataItemBinding Id=660799153790414e8f11be940e9bd37b}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]88" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<EnumSelectorInfo DisplayValue="[string]4-QAM" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]8-QAM" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]16-QAM" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]32-QAM" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+			</EnumSelector>
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="185aff8588043019e0ea64d563a3e36" LabelOwner="[UIModel]97664436ebb8478db8794bf9f6c5fbf6" Left="[float]228" Text="[string]Input M-QAM" Top="[float]176" Width="[float]77" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="4538d251241545fabd08a54d9b593206" Interval="[int]1" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]b836aa23c4694040806321c2d578a45f" Left="[float]340" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]196" Value="{DataItemBinding Id=4449b2e0217b4fa1b7689bc1ef8e5be6}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" Width="[float]54" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="b836aa23c4694040806321c2d578a45f" LabelOwner="[UIModel]4538d251241545fabd08a54d9b593206" Left="[float]340" Text="[string]Output M-QAM" Top="[float]176" Width="[float]87" xmlns="http://www.ni.com/PanelCommon" />
+			<Text BaseName="[string]텍스트" Foreground="[SMColor]#ff2b3033" Height="[float]32" Id="87ae2b7ebec549e09a21952c71c2c677" Left="[float]388" Text="[string]수정해놔서 클러스터에 인자값 옮길떄&#xA;이전과 동일한 값인지 확인할것" TextWrapping="[TextWrapping]Wrap" Top="[float]100" Width="[float]205" xmlns="http://www.ni.com/PlatformFramework" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="0" DataType="@0241784170b84275aff30ede9764a80b" Id="660799153790414e8f11be940e9bd37b" Name="Input M-QAM" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="0" DataType="Int32" Id="4449b2e0217b4fa1b7689bc1ef8e5be6" Name="Output M-QAM" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="0241784170b84275aff30ede9764a80b">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="4-QAM" />
+					<EnumerationMember Value="1" Name="8-QAM" />
+					<EnumerationMember Value="2" Name="16-QAM" />
+					<EnumerationMember Value="3" Name="32-QAM" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
